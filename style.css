@@ -1,0 +1,60 @@
+body{
+    background-image: url(background-image/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    height : 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.music-player-body{
+    width: 320px;
+    height: 390px;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.5),
+    0 6px 20px 0 rgba(255,255,255,0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+h2,
+h3{
+    color: #fff;
+    margin-top: 0;
+
+}
+/* adding styles from the track images */
+.track-image {
+    max-width: 90px;
+    height: 170px;
+    margin-top: 5px;
+    border: 3px solid #000;
+    outline: none;
+
+}
+audio{
+    width:100%;
+}
+.controls{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10 px;
+}
+.controls button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    margin : 0 10px;
+    font-size: 22px;
+    transition: 0.3;
+}
+.controls button:hover{
+    background-color: #4caf50;
+}
